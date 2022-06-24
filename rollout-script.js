@@ -1,17 +1,17 @@
 const cliMkdir = [
     'mkdir',
     '$project',
-	'$project/script',
-	'$project/style',
-	'$project/image',
+	'$project/scripts/',
+	'$project/styles/',
+	'$project/images/',
 ].join(" ")
 
 const cliTouch = [
     'touch',
     '$project/index.html',
 	'$project/README.md',
-	'$project/script/$project-script.js',
-	'$project/style/$project-style.css',
+	'$project/scripts/$project-scripts.js',
+	'$project/styles/$project-styles.css',
 ].join(" ")
 
 const cliCd = [
