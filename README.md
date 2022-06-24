@@ -1,4 +1,5 @@
 # Rollout
+A simple JS to generate Shell commands to generate directorys, files, git init, then open it in VSC.
 
 ## Code in Terminal
 `$project="jojo1"`
@@ -17,5 +18,3 @@
 Then launch this on VSC. 
 
 ![Screenshot of the generated directories and files](https://raw.githubusercontent.com/jsohndata/rollout/main/image/demo-screenshot.png))
-
-
