@@ -18,5 +18,3 @@ A simple JS to generate Shell commands to generate directorys, files, git init, 
 Then launch this on VSC. 
 
 ![Screenshot of the generated directories and files](https://raw.githubusercontent.com/jsohndata/rollout/main/image/demo-screenshot.png))
-
-
