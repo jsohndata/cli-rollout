@@ -3,7 +3,7 @@
 ## Code in Terminal
 `$project="jojo1"`
 
-`mkdir $project $project/script $project/style $project/image && touch $project/index.html $project/README.md $project/script/$project-script.js $project/style/$project-style.css && cd $project && git init; code .`
+`mkdir $project $project/script $project/style $project/image && touch $project/index.html $project/README.md $project/script/$project-scripts.js $project/style/$project-styles.css && cd $project && git init; code .`
 
 ## That would have generated...
 - jojo1/
@@ -15,3 +15,7 @@
 - jojo/image
 
 Then launch this on VSC. 
+
+![Screenshot of the generated directories and files](https://raw.githubusercontent.com/jsohndata/rollout/main/image/counter-screenshot.png)
+
+
