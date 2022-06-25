@@ -1,22 +1,22 @@
 const cliMkdir = [
     'mkdir',
-    '$project',
-	'$project/scripts/',
-	'$project/styles/',
-	'$project/images/',
+        '$project',
+	    '$project/scripts/',
+	    '$project/styles/',
+	    '$project/images/',
 ].join(" ")
 
 const cliTouch = [
     'touch',
-    '$project/index.html',
-	'$project/README.md',
-	'$project/scripts/$project-scripts.js',
-	'$project/styles/$project-styles.css',
+        '$project/index.html',
+	    '$project/README.md',
+	    '$project/scripts/$project-scripts.js',
+	    '$project/styles/$project-styles.css',
 ].join(" ")
 
 const cliCd = [
     'cd',
-    '$project',
+        '$project',
 ].join(" ")
 
 const cliCmd = [
@@ -34,4 +34,4 @@ const cliString4 = cliToString(cliCmd)
 
 const cliStringFinal = cliString1.concat(cliString2, cliString3, cliString4)
 
-console.log(cliStringFinal)
+document.querySelector('.display').innerHTML = cliStringFinal

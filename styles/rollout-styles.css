@@ -1,0 +1,30 @@
+/* Normalize */
+*, **::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #cccccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+section > div { 
+    display: flex;
+    margin: 2rem auto;
+    width: 80%;
+    padding: 2rem;
+    border: 5px solid #c3c3c3;
+    border-radius: 1.0rem;
+    background: #f4f5f6;
+}
+
+footer {
+    text-align: center;
+    padding: 2.0rem;
+}
