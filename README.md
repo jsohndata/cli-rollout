@@ -1,5 +1,8 @@
 # Rollout
-A simple JS to generate Shell commands to generate directories, files, git init, then open it in VSC.
+A simple JS to generate Shell command to generate directories, files, git init, then open it in VSC.
+
+## Demo
+[Working Demo](https://jsohndata-rollout.web.app/)
 
 ## Code in Terminal
 `$project="jojo1"`
