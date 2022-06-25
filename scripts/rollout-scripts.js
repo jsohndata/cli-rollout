@@ -35,3 +35,4 @@ const cliString4 = cliToString(cliCmd)
 const cliStringFinal = cliString1.concat(cliString2, cliString3, cliString4)
 
 document.querySelector('.display').innerHTML = cliStringFinal
+
