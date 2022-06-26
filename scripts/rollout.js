@@ -10,8 +10,8 @@ const cliTouch = [
     'touch',
         '$project/index.html',
 	    '$project/README.md',
-	    '$project/scripts/$project-scripts.js',
-	    '$project/styles/$project-styles.css',
+	    '$project/scripts/$project.js',
+	    '$project/styles/$project.css',
 ].join(" ")
 
 const cliCd = [
@@ -34,5 +34,5 @@ const cliString4 = cliToString(cliCmd)
 
 const cliStringFinal = cliString1.concat(cliString2, cliString3, cliString4)
 
+console.log (cliStringFinal)
 document.querySelector('.display').innerHTML = cliStringFinal
-
