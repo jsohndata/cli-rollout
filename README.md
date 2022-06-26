@@ -7,9 +7,9 @@ A simple JS to generate Shell command to generate directories, files, git init, 
 ![Screenshot of the generated directories and files](https://raw.githubusercontent.com/jsohndata/rollout/main/images/demo-screenshot.png))
 
 ## Code in Terminal
-```$project="jojo1"
+```$project="jojo1"```
 
-mkdir $project $project/scripts/ $project/styles/ $project/images/ && touch $project/index.html $project/README.md $project/scripts/$project.js $project/styles/$project.css && cd $project && git init; code .```
+```mkdir $project $project/scripts/ $project/styles/ $project/images/ && touch $project/index.html $project/README.md $project/scripts/$project.js $project/styles/$project.css && cd $project && git init; code .```
 
 ## That would have generated following then launch it on VSC.
 - jojo1/
